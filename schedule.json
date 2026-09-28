@@ -1,0 +1,37 @@
+{
+  "timezone": "Asia/Seoul",
+  "description": "주간 쿠팡 숏폼 업로드 스케줄 (KST 기준). 요일별 카테고리와 업로드 시간을 직접 수정해서 사용하세요.",
+  "defaults": {
+    "limit": 5
+  },
+  "weekly": {
+    "mon": [
+      { "time": "12:30", "categoryId": "1016", "category": "가전디지털", "theme": "출근길 가성비 전자기기" },
+      { "time": "20:00", "categoryId": "1014", "category": "생활용품", "theme": "자취 필수템 TOP3" }
+    ],
+    "tue": [
+      { "time": "12:30", "categoryId": "1013", "category": "주방용품", "theme": "점심 도시락/주방 꿀템" },
+      { "time": "20:00", "categoryId": "1012", "category": "식품", "theme": "야식·간식 추천" }
+    ],
+    "wed": [
+      { "time": "12:30", "categoryId": "1010", "category": "뷰티", "theme": "데일리 뷰티템 리뷰" },
+      { "time": "20:00", "categoryId": "1024", "category": "헬스/건강식품", "theme": "건강 루틴 아이템" }
+    ],
+    "thu": [
+      { "time": "12:30", "categoryId": "1016", "category": "가전디지털", "theme": "스마트폰·이어폰 액세서리" },
+      { "time": "20:00", "categoryId": "1015", "category": "홈인테리어", "theme": "방 꾸미기 아이템" }
+    ],
+    "fri": [
+      { "time": "12:30", "categoryId": "1012", "category": "식품", "theme": "주말 장보기 추천" },
+      { "time": "20:00", "categoryId": "1017", "category": "스포츠/레저", "theme": "주말 나들이·캠핑템" }
+    ],
+    "sat": [
+      { "time": "11:00", "categoryId": "1029", "category": "반려동물용품", "theme": "반려동물 인기템" },
+      { "time": "19:00", "categoryId": "1020", "category": "완구/취미", "theme": "취미 생활 추천" }
+    ],
+    "sun": [
+      { "time": "11:00", "categoryId": "1013", "category": "주방용품", "theme": "주말 요리 도구" },
+      { "time": "19:00", "categoryId": "1014", "category": "생활용품", "theme": "다음 주 준비 생활템" }
+    ]
+  }
+}
